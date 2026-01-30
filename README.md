@@ -195,10 +195,7 @@ If you use this work in your research, please cite:
   title     = {The Eikonal Bridge: From Classical Lens Design to 
                Quantum Photonics via Differentiable Computing},
   author    = {Chern, Jyh-Long},
-  year      = {2026},
-  publisher = {available in GitHub here},
-  series    = {},
-  isbn      = {}
+  year      = {2026}
 }
 ```
 
@@ -229,9 +226,9 @@ This work bridges decades of optical engineering wisdom with modern computationa
 
 ## Contact
 
-- **Author**: Jyh-Long Lin
-- **Email**: [your-email]
-- **LinkedIn**: [your-linkedin]
+- **Author**: Jyh-Long Chern
+- **Email**: []
+- **LinkedIn**: [https://www.linkedin.com/in/jyh-long-chern-236a95141]
 
 ---
 
