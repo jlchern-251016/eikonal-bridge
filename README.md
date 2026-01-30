@@ -224,12 +224,6 @@ This work bridges decades of optical engineering wisdom with modern computationa
 
 ---
 
-## Contact
-
-- **Author**: Jyh-Long Chern
-- **Email**: []
-- **LinkedIn**: [https://www.linkedin.com/in/jyh-long-chern-236a95141]
-
 ---
 
 *"The eikonal function is not just a mathematical convenience—it is the Rosetta Stone connecting classical ray optics to quantum wave mechanics."*
