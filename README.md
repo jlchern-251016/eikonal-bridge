@@ -4,7 +4,7 @@
 This repository is the open-source home for the book draft and companion materials:
 - Book source (LaTeX) + figures  (Not released yet)
 - Reproducible PDF builds (CI)
-- Companion code (Python/JAX) and tool hooks (Code V / LightTools / RSoft)
+- Companion code (Python/JAX) and tool hooks (Code V / LightTools / RSoft) (Not released yet)
 - Versioned releases (PDF artifacts)
 
 ## Quick links
