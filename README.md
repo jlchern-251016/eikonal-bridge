@@ -9,7 +9,7 @@
 
 ---
 
-## Overview
+## 🎯  Overview
 
 This repository contains the companion materials for *The Eikonal Bridge*, a comprehensive technical book that unifies classical optical design with quantum photonics through the power of differentiable computing.
 
