@@ -195,7 +195,7 @@ If you use this work in your research, please cite:
   title     = {The Eikonal Bridge: From Classical Lens Design to 
                Quantum Photonics via Differentiable Computing},
   author    = {Chern, Jyh-Long},
-  year      = {2026}
+  year      = {2025}
 }
 ```
 
