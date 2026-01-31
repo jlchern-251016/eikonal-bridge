@@ -32,7 +32,6 @@ This **bridge identity** reveals that the classical eikonal function (optical pa
 - **🎨 Production-Ready JAX Code** - Complete, tested implementations with 100-1000× speedup
 - **⚠️ Three-Axis Failure Framework** - Systematic diagnostics for scalar eikonal limitations (P1-P5, M1-M5, T1-T3)
 - **📊 Specification Translation Tables** - Quantitative classical→quantum tolerance tightening factors (10-100×)
-- **🔧 CODE V/Zemax Migration Guide** - Appendix C bridges commercial tools to DEE
 - **📝 80+ Paired Problems** - W-type (analysis), MN-type (design), and Q-type (quantum) problem sets
 
 ---
