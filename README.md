@@ -1,4 +1,4 @@
-# The Eikonal Bridge
+# The Eikonal Bridge 🌉
 
 **From Classical Lens Design to Quantum Photonics via Differentiable Computing**
 
@@ -6,10 +6,12 @@
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 [![JAX](https://img.shields.io/badge/JAX-enabled-green.svg)](https://github.com/google/jax)
 [![SPIE Press](https://img.shields.io/badge/Publisher-SPIE%20Press-orange.svg)](https://spie.org)
+[![HTML5](https://img.shields.io/badge/Companion-Interactive%20Tools-red.svg)](https://www.w3.org/html/)
 
 ---
 
-## 🎯  Overview
+## 🎯 Overview
+
 
 This repository contains the companion materials for *The Eikonal Bridge*, a comprehensive technical book that unifies classical optical design with quantum photonics through the power of differentiable computing.
 
@@ -23,7 +25,19 @@ This **bridge identity** reveals that the classical eikonal function (optical pa
 
 ---
 
-## Who This Book Is For
+## 🌟 Key Features
+
+- **📚 12 Chapters in 4 Parts** - Foundations → Computational Optics → Quantum Extensions → Production Practice
+- **🔬 W/MN Duality Framework** - Every topic from both forward analysis (Walther) and inverse design (Matsui-Nariai) perspectives
+- **🎨 Production-Ready JAX Code** - Complete, tested implementations with 100-1000× speedup
+- **⚠️ Three-Axis Failure Framework** - Systematic diagnostics for scalar eikonal limitations (P1-P5, M1-M5, T1-T3)
+- **📊 Specification Translation Tables** - Quantitative classical→quantum tolerance tightening factors (10-100×)
+- **🔧 CODE V/Zemax Migration Guide** - Appendix C bridges commercial tools to DEE
+- **📝 80+ Paired Problems** - W-type (analysis), MN-type (design), and Q-type (quantum) problem sets
+
+---
+
+## 👥 Who This Book Is For
 
 - **Optical Engineers** transitioning from CODE V/Zemax to quantum photonics applications
 - **Quantum Physicists** seeking practical lens design foundations for photonic systems
@@ -32,20 +46,20 @@ This **bridge identity** reveals that the classical eikonal function (optical pa
 
 ---
 
-## The W/MN Duality Framework
+## 🔄 The W/MN Duality Framework
 
 Every chapter presents optical problems from dual perspectives:
 
 | Perspective | Question | Approach |
 |-------------|----------|----------|
-| **Walther (Forward)** | "Given this device, what does it do?" | Analysis, simulation, characterization |
-| **Matsui-Nariai (Inverse)** | "Given this target, how do I build it?" | Design, optimization, synthesis |
+| **Walther (Forward)** 🔵 | "Given this device, what does it do?" | Analysis, simulation, characterization |
+| **Matsui-Nariai (Inverse)** 🔴 | "Given this target, how do I build it?" | Design, optimization, synthesis |
 
 This duality provides a universal problem-solving methodology that applies across classical and quantum domains.
 
 ---
 
-## Three-Axis Failure Framework
+## ⚠️ Three-Axis Failure Framework
 
 When does the scalar eikonal approximation break down? Our systematic diagnostic framework identifies failure modes across three axes:
 
@@ -57,61 +71,72 @@ When does the scalar eikonal approximation break down? Our systematic diagnostic
 
 ---
 
-## Book Structure
+## 📖 Book Structure
 
-### Part I: Classical Foundations (Chapters 1-3)
-- Ch 1: Introduction & Foundations
-- Ch 2: Classical Eikonal Theory
-- Ch 3: Aberration Theory via Eikonal
+### Part I: Foundations (Chapters 1–4)
+| Ch | Title | Key Topics |
+|----|-------|------------|
+| 1 | Eikonal as Universal Language | Eikonal equation, bridge identity, singlet lens example |
+| 2 | Hamilton's Characteristic Functions | V, T, W, W' functions; Seidel aberrations |
+| 3 | Wavefront Aberrations | Zernike polynomials, PSF/MTF, Double Gauss example |
+| 4 | Beyond Scalar Eikonal | Three-axis failure framework (P/M/T), Level 1–5 hierarchy |
 
-### Part II: Differentiable Computing (Chapters 4-6)
-- Ch 4: Differentiable Computing Primer
-- Ch 5: The Differentiable Eikonal Engine
-- Ch 6: Classical Lens Design with DEE
+### Part II: Computational Optics (Chapters 5–8)
+| Ch | Title | Key Topics |
+|----|-------|------------|
+| 5 | Photonic Integration | Dimensional hierarchy, eigenmode-eikonal, CPO couplers |
+| 6 | Quantum-Inspired Optimization | QUBO formulation, quantum annealing algorithms |
+| 7 | Differentiable Eikonal Engine | DEE architecture, JAX implementation, benchmarks |
+| 8 | Walther-(Matsui-Nariai) Duality | W/MN unified workflow, central methodology chapter |
 
-### Part III: The Quantum Bridge (Chapters 7-10)
-- Ch 7: The Classical-Quantum Bridge
-- Ch 8: Quantum State Engineering
-- Ch 9: Quantum Sensing Applications
-- Ch 10: Quantum Imaging Systems
+### Part III: Quantum Extensions (Chapters 9–11)
+| Ch | Title | Key Topics |
+|----|-------|------------|
+| 9 | Quantum Wavefront Sensing | Squeezed light sensing, MPLC mode sorter |
+| 10 | Quantum Walks in Waveguide Arrays | Quantum walks, HOM effect, QRNG design |
+| 11 | N-Photon Phase Multiplication | N-photon enhancement, NOON states, Heisenberg limit |
 
-### Part IV: Advanced Topics & Future (Chapters 11-12)
-- Ch 11: Advanced Topics (Vector Eikonal, Coherence, Topology)
-- Ch 12: Future Directions
+### Part IV: Practice (Chapter 12)
+| Ch | Title | Key Topics |
+|----|-------|------------|
+| 12 | Production Workflows | AR/VR combiner, CPO coupler, metalens, QKD source |
 
-### Appendices
-- A: Mathematical Foundations
-- B: JAX Reference Guide
-- C: CODE V/Zemax to DEE Translation
-- D: Failure Mode Catalog
 
 ---
 
-## Repository Structure
+## 📁 Repository Structure
 
 ```
 the-eikonal-bridge/
-├── manuscript/           # LaTeX source files
-│   ├── chapters/         # Individual chapter .tex files
-│   ├── appendices/       # Appendix .tex files
-│   ├── figures/          # Publication figures
-│   └── main.tex          # Master document
-├── code/                 # Python/JAX implementations
-│   ├── dee_core/         # DEE framework core modules
-│   ├── examples/         # Worked examples from each chapter
-│   ├── problems/         # Problem solution code
-│   └── figures/          # Figure generation scripts
-├── solutions/            # Complete problem solutions manual
-├── notebooks/            # Jupyter notebooks for exploration
-├── data/                 # Sample datasets and results
-└── docs/                 # Additional documentation
+├── assets/
+│   └── images/               # README and documentation images
+│       └── eikonal_evolution_bridge.png
+├── manuscript/               # LaTeX source files
+│   ├── chapters/             # Individual chapter .tex files
+│   ├── appendices/           # Appendix .tex files
+│   ├── figures/              # Publication figures
+│   └── main.tex              # Master document
+├── code/                     # Python/JAX implementations
+│   ├── dee_core/             # DEE framework core modules
+│   ├── examples/             # Worked examples from each chapter
+│   ├── problems/             # Problem solution code
+│   └── figures/              # Figure generation scripts
+├── solutions/                # Complete problem solutions manual
+├── notebooks/                # Jupyter notebooks for exploration
+├── data/                     # Sample datasets and results
+└── docs/                     # Additional documentation
 ```
 
 ---
 
-## Quick Start
+## 🚀 Quick Start
 
-### Installation
+### Online Usage (Recommended)
+1. Clone or download the repository
+2. Navigate to `notebooks/` for interactive exploration
+3. No heavy installation required for basic exploration!
+
+### Full Installation
 
 ```bash
 # Clone the repository
@@ -126,7 +151,7 @@ source dee_env/bin/activate  # On Windows: dee_env\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### Dependencies
+### 📦 Dependencies
 
 ```
 numpy>=1.21.0
@@ -137,7 +162,7 @@ scipy>=1.7.0
 pyyaml>=6.0
 ```
 
-### Your First DEE Calculation
+### 🎮 Your First DEE Calculation
 
 ```python
 import jax.numpy as jnp
@@ -161,7 +186,7 @@ print(f"Quantum phase: {phase:.4f} rad = {phase/(2*jnp.pi):.4f} waves")
 
 ---
 
-## Specification Translation Tables
+## 📊 Specification Translation Tables
 
 A key feature of this book is quantitative guidance on tolerance tightening when transitioning from classical to quantum applications:
 
@@ -175,18 +200,39 @@ A key feature of this book is quantitative guidance on tolerance tightening when
 
 ---
 
-## Key Features
+## 🔬 Technical Highlights
 
-✅ **Unified Framework**: Single computational infrastructure for classical and quantum optics  
-✅ **Production-Ready Code**: All JAX implementations tested and documented  
-✅ **W/MN Duality**: Every topic from both analysis and design perspectives  
-✅ **Failure Diagnostics**: Systematic framework for identifying scalar eikonal limits  
-✅ **Practical Focus**: Pain-point-first pedagogy addressing real engineering challenges  
-✅ **Complete Solutions**: Full solution manual for all chapter problems  
+### DEE Performance Benchmarks
+
+| Operation | Finite Difference | JAX Autodiff | Speedup |
+|-----------|-------------------|--------------|---------|
+| Gradient (N=100) | 2.1 s | 0.003 s | 700× |
+| Hessian (N=100) | 210 s | 0.15 s | 1400× |
+| Optimization (1000 iter) | 35 min | 45 s | 47× |
+
+### Eigenvalue-Eikonal Identity
+
+The key equation connecting waveguide coupling to quantum state evolution:
+
+```
+β_k = (dW_k/dz) × (2π/λ)
+```
+
+This identity enables unified design of classical CPO couplers and quantum photonic gates.
 
 ---
 
-## Citation
+
+
+## 🙏 Acknowledgments
+
+This work bridges decades of optical engineering wisdom with modern computational methods. Special thanks to:
+- The optical design community for foundational knowledge
+- The JAX development team for enabling differentiable computing
+
+---
+
+## 📄 Citation
 
 If you use this work in your research, please cite:
 
@@ -194,36 +240,44 @@ If you use this work in your research, please cite:
 @book{lin2026eikonal,
   title     = {The Eikonal Bridge: From Classical Lens Design to 
                Quantum Photonics via Differentiable Computing},
-  author    = {Chern, Jyh-Long},
-  year      = {2025}
+  author    = {Lin, Jyh-Long},
+  year      = {2025},
+  publisher = {Open-source},
+  series    = {},
+  isbn      = {}
 }
 ```
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-- **Bug Reports**: Open an issue with a minimal reproducible example
-- **Feature Requests**: Describe the use case and proposed solution
-- **Code Contributions**: Fork, create a feature branch, submit a PR
+- **🐛 Bug Reports**: Open an issue with a minimal reproducible example
+- **💡 Feature Requests**: Describe the use case and proposed solution
+- **🔧 Code Contributions**: Fork, create a feature branch, submit a PR
 
 ---
 
-## License
+## 📜 License
 
 - **Book Content**: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 - **Code**: [MIT License](LICENSE-CODE)
 
 ---
 
-## Acknowledgments
+## 🚦 Project Status
 
-This work bridges decades of optical engineering wisdom with modern computational methods. Special thanks to the optical design community and the JAX development team.
+**Current Version**: 1.0 (Publication Preparation)  
+**Last Updated**: January 2026  
+**Active Development**: Yes
+
 
 ---
 
+
+*"The eikonal function is not just a mathematical convenience—it is the Rosetta Stone connecting classical ray optics to quantum wave mechanics."* 
+
 ---
 
-*"The eikonal function is not just a mathematical convenience—it is the Rosetta Stone connecting classical ray optics to quantum wave mechanics."*
