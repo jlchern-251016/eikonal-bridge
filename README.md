@@ -12,6 +12,11 @@
 
 ## 🎯 Overview
 
+![The Evolution of the Eikonal](assets/images/eikonal_evolution_bridge.png)
+
+*The trajectory of the Eikonal formalism. The upper stream represents the evolution of classical optics from Hamilton (1828) to the 'Inflection Point' (2010). The lower stream represents the computational evolution. The 'Eikonal Bridge' connects these, utilizing the Bridge Identity to map classical characteristic functions into quantum operators.*
+
+---
 
 This repository contains the companion materials for *The Eikonal Bridge*, a comprehensive technical book that unifies classical optical design with quantum photonics through the power of differentiable computing.
 
