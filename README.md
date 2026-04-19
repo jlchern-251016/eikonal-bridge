@@ -106,6 +106,13 @@ When does the scalar eikonal approximation break down? Our systematic diagnostic
 | 12 | Production Workflows | AR/VR combiner, CPO coupler, metalens, QKD source |
 
 
+### Newly added (Brief guides (B) and Problem Cases (PC)) (April 2026)
+| categories | Title | Key Topics | version |
+|----|-------|------------| ------------|
+| B1 | Brief guide to eikonal bridge | 6 analytical derivations and 11 problem cases | v19 |
+
+
+
 ---
 
 ## 📁 Repository Structure
