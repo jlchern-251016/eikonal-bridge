@@ -110,6 +110,9 @@ When does the scalar eikonal approximation break down? Our systematic diagnostic
 | categories | Title | Key Topics | version |
 |----|-------|------------| ------------|
 | B1 | Brief guide to eikonal bridge | 6 analytical derivations and 11 problem cases | v19 |
+| S_A | Showcase_Eiknoal Bridge_Case A | teaching optimized showcase A for eikonal bridge | v9 |
+| S_B | Showcase_Eiknoal Bridge_Case B | research optimized showcase B for eikonal bridge | v12 |
+| S_C | Showcase_Eiknoal Bridge_Case C | Engineering optimized showcase C for eikonal bridge | v6 |
 
 
 
