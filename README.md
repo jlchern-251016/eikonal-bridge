@@ -113,6 +113,17 @@ When does the scalar eikonal approximation break down? Our systematic diagnostic
 | S_A | Showcase_Eiknoal Bridge_Case A | teaching optimized showcase A for eikonal bridge | v9 |
 | S_B | Showcase_Eiknoal Bridge_Case B | research optimized showcase B for eikonal bridge | v12 |
 | S_C | Showcase_Eiknoal Bridge_Case C | Engineering optimized showcase C for eikonal bridge | v6 |
+| PC1 | EikonalBridge_pc1 | Problem case 1 -  Tolerance Budgeting | v3 |
+| PC2 | EikonalBridge_pc2 | Problem case 2 -  Mode-Resolved Loss | v2 |
+| PC3 | EikonalBridge_pc3 | Problem case 3 -  Validity Boundary | v2 |
+| PC4 | EikonalBridge_pc4 | Problem case 4 -  High-NA Corrections | v3 |
+| PC5 | EikonalBridge_pc5 | Problem case 5 -   Metrological Design | v8 |
+| PC6 | EikonalBridge_pc6 | Problem case 6 -   Inverse Design | v2 |
+| PC7 | EikonalBridge_pc7 | Problem case 7 -  Manufacturing Yield | v4 |
+| PC8 | EikonalBridge_pc8 | Problem case 9 -  Design Reuse | v4 |
+| PC9 | EikonalBridge_pc9 | Problem case 9 -  Dephasing Design | v18 |
+| PC10 | EikonalBridge_pc10 | Problem case 10 -  Loss-Channel Design | v3 |
+| PC11 | EikonalBridge_pc11 | Problem case 11 -   Mode-Coupling Design | v3 |
 
 
 
